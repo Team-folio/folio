@@ -4,7 +4,7 @@ import React from "react";
 
 function Hero() {
   return (
-      <div className="self-stretch bg-blueviolet overflow-hidden flex flex-col py-[2.5rem] px-[16.56rem] items-center  text-center text-[2.81rem] font-footer-logo">
+      <div className="self-stretch bg-slate-600 overflow-hidden flex flex-col py-[2.5rem] px-[16.56rem] items-center  text-center text-[2.81rem] font-footer-logo">
         <div className="rounded-2xl w-[60rem] flex flex-col p-[2rem] box-border items-center justify-start z-[0]">
           <div className="self-stretch flex flex-col items-center justify-start gap-[1.5rem]">
             <b className="relative inline-block w-[56.88rem]">
