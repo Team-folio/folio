@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 function Hero() {
   return (
@@ -13,18 +13,22 @@ function Hero() {
             </b>
             <div className="self-stretch flex flex-row items-center justify-center text-left text-[0.75rem] font-copyright-text">
               <div className="flex-1 flex flex-col py-[1.5rem] px-[1.44rem] items-center justify-start">
-                <div className="h-38 rounded-full  gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid bg-black text-white">
-                  <div className="relative leading-[120%] font-bold">
-                    Create a new project
-                  </div>
-                </div>
+                <a
+                  href="https://example.com" // Replace this with the URL of the website you want to link to
+                  target="_blank" // Opens the link in a new tab
+                  rel="noopener noreferrer" // Recommended for security reasons when using target="_blank"
+                  className="h-38 rounded-full gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid bg-black text-white font-bold">
+                  Create a new project
+                </a>
               </div>
-              <div className="flex-1 flex flex-col p-[1.5rem] items-center justify-start">
-                <div className="h-38 rounded-full gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid border-black">
-                  <div className="relative leading-[120%] font-semibold">
-                    Find Talent
-                  </div>
-                </div>
+              <div className="flex-1 flex flex-col py-[1.5rem] px-[1.44rem] items-center justify-start">
+                <a
+                  href="https://example.com" // Replace this with the URL of the website you want to link to
+                  target="_blank" // Opens the link in a new tab
+                  rel="noopener noreferrer" // Recommended for security reasons when using target="_blank"
+                  className="h-38 rounded-full gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border- border-[2px] border-solid border-black  font-bold">
+                  Create a new project
+                </a>
               </div>
             </div>
           </div>
@@ -35,4 +39,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;

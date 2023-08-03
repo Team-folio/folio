@@ -33,8 +33,8 @@ function Navbar() {
             </Link>
           </nav>
           {/* Search Input */}
-  
-        <Search/>
+
+          <Search />
         </div>
 
         {/* Sign In and Sign Up */}
@@ -42,6 +42,7 @@ function Navbar() {
           <Link href="/signin" className="text-black hover:underline">
             Sign In
           </Link>
+
           <Link
             href="/signup"
             className="text-white bg-black rounded-lg  px-2 py-1 hover:underline">
