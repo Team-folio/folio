@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 
+
 function Hero() {
   return (
-    <div className="relative flex items-center justify-between h-[40vh]">
-      <div className="self-stretch bg-blueviolet overflow-hidden flex flex-col py-[2.5rem] px-[16.56rem] items-center justify-start relative gap-[5rem] text-center text-[2.81rem] font-footer-logo">
+      <div className="self-stretch bg-blueviolet overflow-hidden flex flex-col py-[2.5rem] px-[16.56rem] items-center  text-center text-[2.81rem] font-footer-logo">
         <div className="rounded-2xl w-[60rem] flex flex-col p-[2rem] box-border items-center justify-start z-[0]">
           <div className="self-stretch flex flex-col items-center justify-start gap-[1.5rem]">
             <b className="relative inline-block w-[56.88rem]">
@@ -35,7 +35,6 @@ function Hero() {
         </div>
         <div className="absolute my-0 mx-[!important] top-[12.38rem] left-[74.03rem] rounded-[50%] bg-turquoise w-[18.94rem] h-[18.94rem] z-[2]" />
       </div>
-    </div>
   );
 }
 
